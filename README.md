@@ -1,0 +1,2 @@
+# oblstat
+oblstat proyekti
