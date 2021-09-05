@@ -9,6 +9,7 @@ $config = [
     'bootstrap' => ['log'],
     'language'=>'uz',
    // 'layout'=> 'my',
+   'defaultRoute'=>'my/fermer',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
