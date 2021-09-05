@@ -118,47 +118,7 @@ AppAsset::register($this);
                     <?= $content ?>
 
                 </div>
-                <div class="col-3">
-                    <?php //require_once('blocks/right.php');
-				//require_once('../blocks/right.php'); ?>
-                    <div class="list-group align-top shadow-lg p-0 mb-3 mt-3 bg-white rounded">
-                        <a href="bulliten.php"
-                            class="list-group-item list-group-item-action active font-weight-bold text-center">Ko'rsatkichlar</a>
-                        <a href="bulliten.php" class="list-group-item list-group-item-action text-dark">Bulliten</a>
-                        <a href="#" class="list-group-item list-group-item-action text-dark">YaHM</a>
-                        <a href="#" class="list-group-item list-group-item-action text-dark">Texnika</a>
-                        <a href="#" class="list-group-item list-group-item-action text-dark">Ekin maydon</a>
-                        <a href="#" class="list-group-item list-group-item-action text-dark">Chorva</a>
-                        <a href="#" class="list-group-item list-group-item-action text-dark">O'g'it</a>
-                        <a href="#" class="list-group-item list-group-item-action">Boshqa jadvallar</a>
-                    </div>
-                    <div class="list-group align-top shadow-lg p-0 mb-3 mt-3 bg-white rounded">
-                        <a href="hisobot.php"
-                            class="list-group-item list-group-item-action active font-weight-bold text-center">Hisobot</a>
-                        <a href="#" class="list-group-item list-group-item-action text-dark">Fermer</a>
-                        <a href="#" class="list-group-item list-group-item-action">Qishloq xo'jaligi</a>
-                        <a href="#" class="list-group-item list-group-item-action">Paxta</a>
-                        <a href="#" class="list-group-item list-group-item-action">G'alla</a>
-                        <a href="#" class="list-group-item list-group-item-action">Pilla</a>
-                        <a href="#" class="list-group-item list-group-item-action">Dehqon</a>
-                        <a href="#" class="list-group-item list-group-item-action disabled">Ekologiya</a>
-                    </div>
-                    <div class="list-group align-top shadow-lg p-0 mb-3 mt-3 bg-white rounded">
-                        <a href="#"
-                            class="list-group-item list-group-item-action active font-weight-bold text-center">Dehqonchilik</a>
-                        <a href="#" class="list-group-item list-group-item-action text-dark">Me'yoriy hujjatlar</a>
-                        <a href="#" class="list-group-item list-group-item-action text-dark">Soni</a>
-                        <ul class="mb-0 pl-4">
-                            <li class="list-group-item list-group-item-action">Yuridik dehqon</li>
-                            <ul class="mb-0 pl-4">
-                                <li class="list-group-item list-group-item-action">yo'nalishi</li>
-                                <li class="list-group-item list-group-item-action mb-0">tumanlar bo'yicha</li>
-                            </ul>
-                            <li class="list-group-item list-group-item-action">Dehqon(shaxsiy yordamchi)</li>
-                        </ul>
-                        <a href="#" class="list-group-item list-group-item-action">Ko'rsatkichlar</a>
-                    </div>
-                </div>
+
             </div>
     </div>
 
