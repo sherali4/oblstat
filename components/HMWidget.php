@@ -7,7 +7,7 @@ class HMWidget extends Widget
 {
     public function run(){
         $id = Yii::$app->request->get('id');
-        $links = HeaderMenu::find()->orderBy(['id'=>SORT_ASC])->all();
+        $links = HeaderMenu::find()->orderBy(['sort'=>SORT_ASC])->all();
         return $this->render('headermenu',compact('links'));
     }
 }
