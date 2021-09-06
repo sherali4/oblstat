@@ -12,6 +12,9 @@ class StatController extends Controller
             public function actionPress (){
             return $this->render('pressreliz');
         }
+         public function actionReport (){
+            return $this->render('report');
+        }
     }
           
 ?>
