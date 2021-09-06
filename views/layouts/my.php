@@ -15,13 +15,8 @@ $fayl = 'Fermer xo\'jaliklar hisobotlari'; */
 }
  */
 //include_once('../blocks/bd.php');
-use app\assets\AppAsset;
-use app\widgets\Alert;
-use yii\bootstrap4\Breadcrumbs;
-use yii\bootstrap4\Html;
-use yii\bootstrap4\Nav;
-use yii\bootstrap4\NavBar;
-use app\components\HMWidget;
+            use app\assets\AppAsset;
+            use app\components\HMWidget;
 AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -84,20 +79,6 @@ AppAsset::register($this);
             <div class="row">
                 <?php //require_once('../blocks/left.php'); ?>
                 <div class="col-3">
-                    <div class="list-group align-top shadow-lg mb-3 mt-3 bg-white rounded">
-                        <a href="#"
-                            class="list-group-item list-group-item-action active font-weight-bold text-center">Qishloq
-                            xo'jaligi</a>
-                        <a href="#" class="list-group-item list-group-item-action text-dark">YaIM</a>
-                        <a href="#" class="list-group-item list-group-item-action text-dark">Qishloq xo'jaligi</a>
-                        <ul class="mb-0 pl-4">
-                            <li class="list-group-item list-group-item-action">Dehqonchilik</li>
-                            <li class="list-group-item list-group-item-action mb-0">Chorvachilik</li>
-                        </ul>
-                        <a href="#" class="list-group-item list-group-item-action">Ovchilik</a>
-                        <a href="#" class="list-group-item list-group-item-action">O'rmonchilik</a>
-                        <a href="#" class="list-group-item list-group-item-action disabled">Baliqchilik</a>
-                    </div>
                     <div class="list-group align-top shadow-lg mb-3 mt-3 bg-white rounded">
                         <a href="#"
                             class="list-group-item list-group-item-action active  font-weight-bold text-center">FERMER</a>

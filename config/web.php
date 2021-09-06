@@ -9,7 +9,7 @@ $config = [
     'bootstrap' => ['log'],
     'language'=>'uz',
    // 'layout'=> 'my',
-   'defaultRoute'=>'my/fermer',
+   'defaultRoute'=>'stat/news',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -17,7 +17,7 @@ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'WCP19rgU4Yh_liEMvlEu7gON6fZdVVVl',
+            'cookieValidationKey' => 'WCP19rgU4Yh_liEMvlEu7gON6fZdVVVlqwerty',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
