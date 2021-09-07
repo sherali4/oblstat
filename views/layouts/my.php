@@ -36,7 +36,7 @@ AppAsset::register($this);
 <body class="d-flex flex-column h-100">
     <?php $this->beginBody() ?>
 
-    <header class="row row-xl align-content-center">
+    <header class="row row-xl align-content-center bg-light">
 
         <div class="header-h1 col-xl-12 mb-1 shadow-lg p-0 mb-3 mt-3 rounded" class="header-h1">
             <img class="rounded float-left" width="100px" height="100px" src="img/logo.png" />
@@ -67,7 +67,7 @@ AppAsset::register($this);
     <div class="container container-xl">
 
         <?= HMWidget::widget() ?>
-        <main role="main" class="flex-shrink-0">
+        <main role=" main" class="flex-shrink-0">
             <!-- 
 bosh menyu shu joyda joylashgan
  -->
@@ -169,7 +169,7 @@ bosh menyu shu joyda joylashgan
                         <!--         <hr> -->
                         <ul class="nav nav-pills flex-column mb-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link active" aria-current="page">
+                                <a href="http://127.0.0.1/oblstat/web/" class="nav-link active" aria-current="page">
                                     <svg class="bi me-2" width="16" height="16">
                                         <use xlink:href="#home" />
                                     </svg>
@@ -177,7 +177,8 @@ bosh menyu shu joyda joylashgan
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link link-primary text-primary">
+                                <a href="http://127.0.0.1/oblstat/web/stat/news"
+                                    class="nav-link link-primary text-primary">
                                     <svg class="bi me-2" width="16" height="16">
                                         <use xlink:href="#speedometer2" />
                                     </svg>
@@ -185,7 +186,8 @@ bosh menyu shu joyda joylashgan
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link link-primary text-primary">
+                                <a href="http://127.0.0.1/oblstat/web/stat/press"
+                                    class="nav-link link-primary text-primary">
                                     <svg class="bi me-2" width="16" height="16">
                                         <use xlink:href="#table" />
                                     </svg>
@@ -193,7 +195,8 @@ bosh menyu shu joyda joylashgan
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link link-primary text-primary">
+                                <a href="http://127.0.0.1/oblstat/web/stat/report"
+                                    class="nav-link link-primary text-primary">
                                     <svg class="bi me-2" width="16" height="16">
                                         <use xlink:href="#grid" />
                                     </svg>
@@ -229,7 +232,24 @@ bosh menyu shu joyda joylashgan
                                     <svg class="bi me-2" width="16" height="16">
                                         <use xlink:href="#people-circle" />
                                     </svg>
-                                    Customers
+                                    Me'yoriy hujjatlar
+                                </a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="#" class="nav-link link-primary text-primary">
+                                    <svg class="bi me-2" width="16" height="16">
+                                        <use xlink:href="#people-circle" />
+                                    </svg>
+                                    Bo'lim haqida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link link-primary text-primary">
+                                    <svg class="bi me-2" width="16" height="16">
+                                        <use xlink:href="#people-circle" />
+                                    </svg>
+                                    Murojaatlar
                                 </a>
                             </li>
                         </ul>

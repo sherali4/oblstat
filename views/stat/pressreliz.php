@@ -1,33 +1,63 @@
-<nav id="navbar-example3" class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <nav class="nav nav-pills flex-column">
-        <a class="nav-link" href="#item-1">Item 1</a>
-        <nav class="nav nav-pills flex-column">
-            <a class="nav-link ml-3 my-1" href="#item-1-1">Item 1-1</a>
-            <a class="nav-link ml-3 my-1" href="#item-1-2">Item 1-2</a>
-        </nav>
-        <a class="nav-link" href="#item-2">Item 2</a>
-        <a class="nav-link" href="#item-3">Item 3</a>
-        <nav class="nav nav-pills flex-column">
-            <a class="nav-link ml-3 my-1" href="#item-3-1">Item 3-1</a>
-            <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
-        </nav>
-    </nav>
+<nav aria-label="breadcrumb" class="mt-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="http://127.0.0.1/oblstat/web/">Bosh sahifa</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Press Relizlar</li>
+    </ol>
 </nav>
+<div id="accordianId" role="tablist" aria-multiselectable="true">
+    <div class="card">
+        <div class="card-header" role="tab" id="section1HeaderId">
+            <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true"
+                    aria-controls="section1ContentId">
+                    Section 1
+                </a>
+            </h5>
+        </div>
+        <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
 
-<div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
-    <h4 id="item-1">Item 1</h4>
-    <p>...</p>
-    <h5 id="item-1-1">Item 1-1</h5>
-    <p>...</p>
-    <h5 id="item-1-2">Item 1-2</h5>
-    <p>...</p>
-    <h4 id="item-2">Item 2</h4>
-    <p>...</p>
-    <h4 id="item-3">Item 3</h4>
-    <p>...</p>
-    <h5 id="item-3-1">Item 3-1</h5>
-    <p>...</p>
-    <h5 id="item-3-2">Item 3-2</h5>
-    <p>...</p>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center active">
+                    Active list item
+                    <span class="badge badge-secondary badge-pill">pill1</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    List item
+                    <span class="badge badge-secondary badge-pill">pill2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center disabled">
+                    Disabled item
+                    <span class="badge badge-secondary badge-pill">pill3</span>
+                </li>
+            </ul>
+
+
+
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="section2HeaderId">
+            <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true"
+                    aria-controls="section2ContentId">
+                    Section 2
+                </a>
+            </h5>
+        </div>
+        <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
+
+
+            <div class="list-group">
+                <button type="button" class="list-group-item list-group-item-action">Active item</button>
+                <button type="button" class="list-group-item list-group-item-action">Item</button>
+                <button type="button" class="list-group-item list-group-item-action disabled">Disabled item</button>
+
+                <button type="button" class="list-group-item list-group-item-action">Active item</button>
+                <button type="button" class="list-group-item list-group-item-action">Item</button>
+                <button type="button" class="list-group-item list-group-item-action disabled">Disabled item</button>
+            </div>
+
+
+        </div>
+    </div>
 </div>

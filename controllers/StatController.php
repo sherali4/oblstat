@@ -15,6 +15,24 @@ class StatController extends Controller
          public function actionReport (){
             return $this->render('report');
         }
+                 public function actionVvp (){
+            return $this->render('vvp');
+        }
+                 public function actionRuyxat (){
+            return $this->render('ruyxat');
+        }
+                 public function actionShakl (){
+            return $this->render('shakl');
+        }
+                 public function actionTel (){
+            return $this->render('tel');
+        }
+                 public function actionHujjat (){
+            return $this->render('hujjat');
+        }
+                 public function actionAbout (){
+            return $this->render('about');
+        }
     }
           
 ?>
